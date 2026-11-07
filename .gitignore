@@ -53,6 +53,9 @@ apps/raycast/raycast-env.d.ts
 .codex/*
 !.codex/hooks.json
 
+# Claude Code local settings can contain saved commands with secrets
+.claude/settings.local.json
+
 # mobbin UI evidence boards (design-exploration scratch)
 .mobbin/
 
